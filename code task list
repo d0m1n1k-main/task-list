@@ -1,0 +1,40 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+string b;
+
+Console.Write("¬ведите задачу: ");
+string message1 = Console.ReadLine();
+
+Console.Write("¬ведите задачу: ");
+string message2 = Console.ReadLine();
+
+Console.Write("¬ведите задачу: ");
+string message3 = Console.ReadLine();
+
+Console.Write("¬ведите задачу: ");
+string message4 = Console.ReadLine();
+
+Console.Write("¬ведите задачу: ");
+string message5 = Console.ReadLine();
+
+Console.Write("Continue? Yes or No :");
+b = Console.ReadLine();
+
+ while  (b == "No" | b == "Yes") 
+
+ if (b == "Yes")
+{
+    Console.Write("¬ведите задачу: ");
+    string message = Console.ReadLine();
+}
+
+else 
+{
+    Console.WriteLine("thank you for using our service NEZABYWAJKA");
+}
+
+Console.ReadKey();
